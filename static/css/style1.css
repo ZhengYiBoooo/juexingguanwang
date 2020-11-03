@@ -1,0 +1,350 @@
+@charset "UTF-8";
+
+.accrodion-group,.accordion-DIV,.accordion,.accordion-li,.accordion-icon,.accordion>a,.accordion-img,.accordion-description,.accordion-title,.accordion-content{
+    list-style-type: none;
+    padding: 0;
+    margin: 0
+}
+.accordion-DIV {
+    overflow: hidden;
+    padding-left: 1%;
+    padding-right: 1%
+}
+
+.accordion-DIV>.accordion {}
+
+.accordion {
+    clear: both;
+    overflow: hidden
+}
+
+.accordion [data-name=accordion] {
+    border: thin solid #efefef
+}
+
+.accordion .accordion-li {
+    float: left;
+    color: #fff;
+    border-right: none;
+    overflow: hidden;
+    width: 100px;
+    transition: width 1.5s;
+    position: relative;
+    cursor: pointer
+}
+
+.accordion .accordion-li .accordion-img {
+   
+}
+
+.accordion .accordion-li:last-child {
+    border-right: thin solid #efefef
+}
+
+.accordion .accordion-li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .2;
+    transition: all .5s
+}
+
+.accordion .accordion-li .accordion-description {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .7;
+    transition: all .5s;
+    top: inherit;
+    bottom: 50%;
+    height: 50%;
+    margin-bottom: -135px;
+    padding: 1.5%;
+    box-sizing: content-box;
+}
+
+.accordion .accordion-li .accordion-content,
+.accordion .accordion-li .accordion-title,
+.accordion:hover .accordion-li li.active .accordion-title,
+.accordion:hover li.active .accordion-li .accordion-title {
+    opacity: 0;
+    transition: all .5s;
+    margin-top: 15px;
+    text-shadow: 0 0 1px #e0f9ff
+}
+
+.accordion .accordion-li .accordion-title {
+    font-size: xx-large;
+    font-weight: 700
+}
+
+.accordion .accordion-li .accordion-icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 42.3px;
+    margin-left: -21.6px;
+    margin-top: -20px;
+    font-size: 40px;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 2.5s;
+}
+
+.accordion .accordion-li .luico01 {
+    position: absolute;
+    left: 9%;
+    top: 46%;
+    width: 100%;
+    height: 100px;
+    margin-left: -21.6px;
+    margin-top: -20px;
+    font-size: 40px;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 2.5s;
+    background: url(../image/luico01.png) no-repeat 67px 0;
+}
+.accordion .accordion-li .luico02 {
+    position: absolute;
+    left: 9%;
+    top: 46%;
+    width: 100%;
+    height: 100px;
+    margin-left: -21.6px;
+    margin-top: -20px;
+    font-size: 40px;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 2.5s;
+    background: url(../image/luico02.png) no-repeat 67px 0;
+}
+.accordion .accordion-li .luico03 {
+    position: absolute;
+    left: 9%;
+    top: 46%;
+    width: 100%;
+    height: 100px;
+    margin-left: -21.6px;
+    margin-top: -20px;
+    font-size: 40px;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 2.5s;
+    background: url(../image/luico03.png) no-repeat 67px 0;
+}
+.accordion .accordion-li .luico04 {
+    position: absolute;
+    left: 9%;
+    top: 46%;
+    width: 100%;
+    height: 100px;
+    margin-left: -21.6px;
+    margin-top: -20px;
+    font-size: 40px;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 2.5s;
+    background: url(../image/luico04.png) no-repeat 67px 0;
+}
+.accordion .accordion-li .luico05 {
+    position: absolute;
+    left: 9%;
+    top: 46%;
+    width: 100%;
+    height: 100px;
+    margin-left: -21.6px;
+    margin-top: -20px;
+    font-size: 40px;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 2.5s;
+    background: url(../image/luico05.png) no-repeat 67px 0;
+}
+.accordion .accordion-li .luico06 {
+    position: absolute;
+    left: 9%;
+    top: 46%;
+    width: 100%;
+    height: 100px;
+    margin-left: -21.6px;
+    margin-top: -20px;
+    font-size: 40px;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 2.5s;
+    background: url(../image/luico06.png) no-repeat 67px 0;
+}
+.accordion .accordion-li .luico07 {
+    position: absolute;
+    left: 9%;
+    top: 46%;
+    width: 100%;
+    height: 100px;
+    margin-left: -21.6px;
+    margin-top: -20px;
+    font-size: 40px;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 2.5s;
+    background: url(../image/luico07.png) no-repeat 67px 0;
+}
+.accordion .accordion-li .luico08 {
+    position: absolute;
+    left: 9%;
+    top: 46%;
+    width: 100%;
+    height: 100px;
+    margin-left: -21.6px;
+    margin-top: -20px;
+    font-size: 40px;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 2.5s;
+    background: url(../image/luico08.png) no-repeat 67px 0;
+}
+.accordion .accordion-li .accordion-description .accordion-content{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+.accordion:hover li {
+    width: 100px;
+    transition: width 1.5s
+}
+
+.accordion:hover li.active {
+    transition: width .5s
+}
+
+.accordion:hover li.active::before {
+    opacity: 0
+}
+
+.accordion:hover li.active .accordion-icon {
+    opacity: 0;
+    transition: opacity .2s
+}
+
+.accordion:hover li.active .accordion-description {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    transition: all .5s;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0), white);
+    background: -o-linear-gradient(rgba(255, 255, 255, 0), white);
+    background: -moz-linear-gradient(rgba(255, 255, 255, 0), white);
+    background: linear-gradient(rgba(255, 255, 255, 0), white);
+    padding-top: 9%;
+    height: auto;
+    width: 97%;
+    top: inherit;
+    bottom: 136px
+}
+
+.accordion:hover li.active .accordion-content,
+.accordion:hover li.active .accordion-title {
+    opacity: 1 !important;
+    transition: all 2s
+}
+
+.accordion.verticality {
+    clear: both;
+    overflow: hidden
+}
+
+.accordion.verticality .accordion-li {
+    width: 100%;
+    float: inherit;
+    border: thin solid #efefef;
+    height: 100px;
+    transition: height .6s;
+    border-bottom: none
+}
+
+.accordion.verticality .accordion-li .accordion-description {
+    left: 50%;
+    bottom: 0;
+    width: 30%;
+    height: 95%;
+    margin-bottom: 0;
+    margin-top: auto;
+    margin-left: -224px;
+    transition: all .8s
+}
+
+.accordion.verticality .accordion-li .accordion-img {
+    width: 100%
+}
+
+.accordion.verticality .accordion-li:last-child {
+    border-bottom: thin solid #efefef
+}
+
+.accordion.verticality .accordion-li.active {
+    width: 100% !important;
+    transition: height .6s
+}
+
+.accordion.verticality .accordion-li.active::before {
+    opacity: 0
+}
+
+.accordion.verticality .accordion-li.active .accordion-icon {
+    opacity: 0;
+    transition: all .5s
+}
+
+.accordion.verticality .accordion-li.active .accordion-description {
+    margin-left: 0;
+    width: 98%;
+    height: 50%;
+    top: inherit;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    padding-top: 1.5%;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0), white);
+    background: -o-linear-gradient(rgba(255, 255, 255, 0), white);
+    background: -moz-linear-gradient(rgba(255, 255, 255, 0), white);
+    background: linear-gradient(rgba(255, 255, 255, 0), white);
+    transition: height .8s
+}
+
+.accordion.verticality .accordion-li.active .accordion-description .accordion-title,
+.accordion.verticality .accordion-li.active .accordion-description .accordion-content,
+.accordion.verticality .accordion-li.active .accordion-description .accordion-title {
+    opacity: 1;
+    transition: opacity 1s
+}
+
+.accordion .ver-toggle {
+    display: none
+}
+
+.accordion .accordion-img {
+    display: block
+}
+
+.accordion a {
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    height: 100%
+}
